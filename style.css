@@ -1,0 +1,81 @@
+body {
+   background:linear-gradient(rgb(97, 142, 255),rgb(201, 23, 201));
+   margin: 0; 
+   height: 100vh; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.h1 {
+   background-color: rgb(78, 10, 141);
+   color: rgb(198, 131, 44);
+   border: solid;
+   padding: 0.5px; 
+  border-radius:10px;
+  display: center;
+}
+
+.button {
+   display: inline-block;
+   background-color: purple;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 18px;
+   font-family: monospace;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   cursor: pointer;
+   offset:none;
+   outline:none;
+}
+
+.h2{
+color:whitesmoke;
+
+font-stretch: semi-expanded;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragraph{
+color: whitesmoke;
+font-size:20px;
+}
+
+.numbered{
+   justify-content: center;
+   text-align:left;
+   display:flex;
+}
+
+input[type="text"] {
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   width:100%;
+}
+
+
+.container {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   height: 50vh; 
+}
+
+.username {
+   text-align: center;
+   text-align: center;
+   cursor: pointer;
+   offset:none;
+   outline:none;
+}
+
+form {
+   background-color: white; /* or any color you prefer */
+   padding: 10px;
+   border-radius: 5px;
+   display: inline-block;
+}
